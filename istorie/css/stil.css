@@ -1,0 +1,90 @@
+body
+ {
+  height: 100vh;
+  width:100%;
+  padding: 0;
+  margin: 0;
+  background: url("fond6.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover; 
+ 
+}
+
+.row-bordered {
+  position: relative;
+  padding-bottom:26px;
+}
+
+.row-bordered:after {
+  content: "";
+  display: block;
+  border-bottom: 25px solid #994d00;
+  border-bottom-style:ridge;
+  position: absolute;
+  bottom: 0;
+  left: 2.5%;
+  right: 2.5%;
+}
+
+
+.col img
+{
+	position:relative;
+	max-height:51%;
+	max-width:36%;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	transition: transform 2s;
+	transform: scale(1) rotate(0deg) skewX(-3deg);
+	opacity:1;
+	bottom:0;
+	right:0;
+	left:0;
+	z-index: 999;
+
+}
+
+
+
+h1#b1
+{
+	margin-top:0;
+	margin-bottom:0;
+	text-align:center;
+	font-family:calibri, verdana;
+	font-size:5vmin;
+	font-weight:bold;
+	/*color:#737373;*/
+	color:#994d00;
+	letter-spacing: 3px;
+	text-shadow: 3px 3px #ffe6cc; /*#b3b3b3;*/
+}
+h2#b2
+{
+	margin-top:0;
+	margin-bottom:0;
+	text-align:center;
+	font-family:calibri, verdana;
+	font-size:4vmin;
+	/*color:#737373;*/
+	color:#994d00;
+	letter-spacing: 3px;
+	text-shadow: 2px 2px #ffe6cc;
+	
+}
+p
+{
+	margin-top:0;
+	margin-bottom:0;
+	text-align:center;
+	font-family:calibri, verdana;
+	font-size:2vmin;
+	/*color:#737373;*/
+	color:#994d00;
+	letter-spacing: 2px;
+	text-shadow: 2px 2px #b3b3b3	
+}
+
